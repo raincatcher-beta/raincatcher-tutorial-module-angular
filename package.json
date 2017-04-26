@@ -1,6 +1,6 @@
 {
   "name": "raincatcher-tutorial-module-angular",
-  "version": "0.0.1",
+  "version": "0.0.1-pre.1",
   "description": "An Angular UI for the tutorial module",
   "main": "lib/index.js",
   "scripts": {
