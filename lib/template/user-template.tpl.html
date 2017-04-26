@@ -1,0 +1,39 @@
+<div ng-if="loading && !err">
+  <h1>Loading User List...</h1>
+</div>
+
+<div ng-if="err">
+  <h2>Error {{err}}</h2>
+</div>
+
+<div class="user_list" ng-if="!loading">
+  <h1>List Of Users</h1>
+
+  <ul>
+    <li ng-repeat="user in users">
+      {{ user.name }}
+    </li>
+  </ul>
+</div>
+
+<div class="user_form">
+  <h1>Add A User</h1>
+
+  <label for="inputName" class="">Name</label>
+  <input type="text"
+         name="inputName"
+         ng-model="newUser.name"
+         ng-required="true"
+  />
+
+  <label for="inputAddress" class="">Address</label>
+  <input type="text"
+         name="inputAddress"
+         ng-model="newUser.address"
+         ng-required="true"
+  />
+  <button ng-click="addUser()">Add New User</button>
+</div>
+
+
+
