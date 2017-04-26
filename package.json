@@ -1,0 +1,17 @@
+{
+  "name": "raincatcher-tutorial-module-angular",
+  "version": "0.0.1-pre.1",
+  "description": "An Angular UI for the tutorial module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "fh-wfm-template-build": "^0.2.1"
+  }
+}
